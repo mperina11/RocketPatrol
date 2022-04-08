@@ -5,7 +5,11 @@ let config = {
     scene: [Menu, Play]
 };
 
+// Game object
 let game = new Phaser.Game(config);
 
+// UI setup
 let borderUISize = config.height / 15;
 let borderPadding = borderUISize / 3;
+
+let keyF, keyR, keyLEFT, keyRIGHT;
